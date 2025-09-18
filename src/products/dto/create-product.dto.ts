@@ -10,3 +10,4 @@ export class CreateProductDto {
   @Min(0) // Preço não pode ser negativo
   price: number;
 }
+
